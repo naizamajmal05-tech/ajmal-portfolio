@@ -81,8 +81,9 @@ a.card:hover{border-color:var(--accent);color:var(--text)}
 .page-figure{margin:0 0 2rem;max-width:30rem}
 article .page-figure{max-width:none}
 .hero-grid{display:grid;gap:2.25rem;align-items:center}
-.hero-photo{margin:0;width:min(100%,280px)}
-.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border:1px solid var(--border);border-radius:8px}
+.hero-photo{position:relative;margin:0 14px 14px 0;width:min(calc(100% - 14px),280px)}
+.hero-photo::before{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--accent);border-radius:8px;z-index:0}
+.hero-photo img{position:relative;z-index:1;display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border:1px solid var(--border);border-radius:8px}
 .strip{padding:2.5rem 0 0}
 
 /* Buttons */
@@ -133,6 +134,20 @@ textarea{min-height:9rem;resize:vertical}
 .site-footer a:hover{color:var(--accent)}
 .site-footer h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text);margin-bottom:.6rem}
 .copy{margin-top:2rem}
+
+/* Phones */
+@media (max-width:699px){
+  section{padding:2.75rem 0}
+  .hero{padding:3rem 0 2.5rem}
+  .strip{padding-top:1.75rem}
+  .hero-photo{width:min(calc(100% - 14px),240px)}
+  .nav-toggle{min-height:44px;padding:.5rem 1rem}
+  .nav-list a{padding:.75rem 0}
+  .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px}
+  summary{min-height:44px;align-items:center}
+  .site-footer a{display:inline-block;padding:.35rem 0}
+  .card .media-43{aspect-ratio:16/10}
+}
 
 /* Larger screens */
 @media (min-width:700px){
