@@ -89,8 +89,9 @@ a.card:hover{border-color:var(--accent);color:var(--text)}
 article .page-figure{max-width:none}
 .hero .wrap{max-width:none;padding:0 clamp(1.25rem,5vw,5rem)}
 .hero-grid{display:grid;gap:2.25rem;align-items:center}
-.hero-photo{margin:0;width:min(100%,260px);padding:6px;background:var(--card);border:1px solid var(--border);border-radius:12px;align-self:center}
-.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border-radius:7px}
+.about-photo{margin:0;width:300px;padding:4px;background:var(--card);border:1px solid var(--border);border-radius:10px}
+.about-photo.is-large{float:right;width:min(380px,40%);margin:0 0 1.25rem 2rem}
+.about-photo img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border-radius:6px}
 .strip{padding:2.5rem 0 0}
 
 .skill-card{display:flex;flex-direction:column;border-top:2px solid var(--accent)}
@@ -158,7 +159,7 @@ textarea{min-height:9rem;resize:vertical}
   section{padding:2.75rem 0}
   .hero{padding:3rem 0 2.5rem}
   .strip{padding-top:1.75rem}
-  .hero-photo{width:min(100%,240px)}
+  .about-photo.is-large{width:180px;margin:0 0 .75rem 1.25rem}
   .nav-toggle{min-height:44px;padding:.5rem 1rem}
   .nav-list a{padding:.75rem 0}
   .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px}
@@ -176,8 +177,6 @@ textarea{min-height:9rem;resize:vertical}
 @media (min-width:900px){
   .wrap{padding:0 2rem}
   .hero .wrap{padding:0 clamp(2rem,5vw,5rem)}
-  .hero-grid{grid-template-columns:1fr minmax(320px,26vw);gap:4rem}
-  .hero-photo{width:100%;justify-self:end}
   .media-strip{aspect-ratio:16/5}
   .grid.cols-3{grid-template-columns:repeat(3,1fr)}
   section{padding:4.5rem 0}

@@ -25,7 +25,7 @@ Static site (HTML + one stylesheet + small JS), deployed on Cloudflare Pages fro
 - **Service images (4:3):** SEO `service-seo-strategy.webp`; Analytics `service-analytics-charts.webp`; Content Writing `service-content-planner.webp`; CRM Setup `workperch-tRjfyx6KKKw-unsplash.webp`; AI Automation `ai-automation-setup.webp`; Website Audits `website-feed.webp`; Google Business Profile `google-business-profile.webp` (shown with `object-fit: contain` on white so the logo is not cropped).
 - **Blog covers (1.91:1):** SEO post `blog-desk-setup.webp`; CRM post `crm-small-business-blog.webp`; AI automation post `ai-for-small-business-blog.webp`.
 - Images appear on home cards, Services index cards, Blog index cards, service page tops and blog post tops.
-- **Social image:** `assets/og-image.png` regenerated (1200x630 PNG from `uae-marina-night.webp` with overlay and the text "Ajmal Naizam" / "Digital Marketing Analyst in UAE", no profile photo).
+- **Social image:** `assets/og-image.png` regenerated (1200x630 PNG from `uae-marina-night.webp` with overlay and the text "Ajmal Naizam" / "Digital Marketing Analyst in UAE" (old title; image not yet regenerated for the new one), no profile photo).
 - About and Contact have no photos, by design.
 
 ### Design and mobile

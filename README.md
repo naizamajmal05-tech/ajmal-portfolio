@@ -1,6 +1,6 @@
 # Ajmal Naizam – Portfolio Website
 
-A minimalist multi-page portfolio for a Digital Marketing Analyst in UAE. Plain HTML, CSS and a little vanilla JavaScript. No frameworks, no build step.
+A minimalist multi-page portfolio for an AI Automation & Marketing Consultant in UAE. Plain HTML, CSS and a little vanilla JavaScript. No frameworks, no build step.
 
 ## Folder structure
 
